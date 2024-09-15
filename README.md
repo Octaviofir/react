@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# react
+Projeto Final de Avaliação react Octávio Figueiredo | Professor Nelson
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+OLÁ PROFESSOR, ESPERO QUE JÁ ESTEJA MELHOR E 100% RECUPERADO. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Guia:
+1- No fundo da primeira página tem um botão "SHOP SEATING" que leva para a segunda página!
+2- Na segunda página 2 icons para alternar a visualização dos produtos entre grelha e lista! [useEffect useState]
+3) No fundo dessa mesma página tem um botão para ver outros produtos vindos de uma API (estão inicialmente escondidos)
+4) clicando no componente sofa "qualquer um dos sofás" levará à última página!
 
-## Expanding the ESLint configuration
+tanto a NavBar como o footer são fixos: na navbar o icon cinzento sem iagem leva para a 1º página. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+Notas:
+Conforme fui fazendo o projeto fui aprefeiçoando o meu código e percebendo como react funciona.
+Assim, o componente MainContent está muito mal organizado, tem muita informação que deveria estar noutros componentes. 
+Na segunda página já se vê a melhor organização de componentes. 
+O responsivo não está perfeito, tenho ainda de trabalhar nisso. 
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Just a desabafo:
+Espero que o projeto final esteja de acordo com as expectativas de um aluno ao nível do professor Nelson e que se sinta orgulhoso :)
+Por fim as melhoras e espero que esteja tudo bem de saúde! 
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Um grande abraço, foi um prazer, obrigado pelas aulas gravadas, ajudaram imenso.
+Espero que nos voltemos a ver por aí 
+Grande Abraço. 
