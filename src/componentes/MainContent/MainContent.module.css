@@ -1,0 +1,63 @@
+.bannerText {
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 3.33rem;
+    text-align: left;
+    color: white;
+
+}
+
+.seating_btn {
+    display: inline-block;
+    margin-top: 2.8rem;
+    position: relative;
+}
+
+.btn_position {
+
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+
+.section_gallery {
+    gap: 1.6rem;
+}
+
+.bannerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 40rem;
+    position: absolute;
+    top: 13.3rem;
+    left: 14.8rem;
+}
+
+.delivery_section {
+    gap: 9rem
+}
+
+.flex_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery_Products {
+    gap: 2rem;
+}
+
+.nomade_section {
+    background-color: var(--beige);
+    height: 70rem;
+}
+
+
+@media (max-width: 768px) {
+    .flex_section {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,14 @@
+.productCard {
+border-radius: 0.4rem;
+position: relative;
+
+}
+
+.productInfo {
+position: absolute;
+bottom: 1rem; 
+left: 1rem; 
+z-index: 1; 
+font-weight: 500;
+font-size: 1.4rem;
+}

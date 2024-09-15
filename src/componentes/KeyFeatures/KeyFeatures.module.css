@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.features_icon {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.features_icon {
+    width: 15rem;
+    height: 15rem;
+
+}

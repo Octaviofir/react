@@ -1,0 +1,48 @@
+.section {
+    margin: 0 auto;
+    max-width: calc(121rem + 16rem);
+    min-width: 36rem;
+    height: auto;
+}
+
+.fullwidth {
+    max-width: 100%;
+    margin: 0 auto;
+    min-width: 100vw;
+}
+
+.bannerText {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 4.8rem;
+font-weight: 500;
+line-height: 3.33rem;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.flexSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    flex-wrap: wrap;
+    background-color: #F7EEE3;
+}
+
+.brown_section {
+    background-color: #F7EEE3;
+
+}
+
+.flexSection img {
+    width: 9rem;
+}
+
+@media (max-width: 768px) {
+    .flexSection {
+        gap: 1rem;  
+        flex-direction: column; 
+    }
+}
+

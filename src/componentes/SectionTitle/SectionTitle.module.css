@@ -1,0 +1,15 @@
+.section_title {
+    font-family: Inter, sans-serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+
+}
+
+.align_left {
+    text-align: left;
+  }
+  
+  .align_center {
+    text-align: center;
+  }

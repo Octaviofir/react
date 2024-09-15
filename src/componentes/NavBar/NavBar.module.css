@@ -1,0 +1,35 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.4rem;
+    padding: 2.4rem;
+}
+
+.logo {
+    width: 9.5rem;
+    height: 2.9rem;
+    top: 1.8rem;
+    left: 2.4rem;
+    gap: 0rem;
+    border-radius: 0.4rem;
+    opacity: 0rem;
+    background-color:#E8E8E8;
+    ;    
+}
+
+.logoWrapper {
+	max-width: 11.4rem;
+}
+
+.mainMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.4rem;
+
+}
+
+.mainMenu a {
+    font-size: 1.6rem;
+}

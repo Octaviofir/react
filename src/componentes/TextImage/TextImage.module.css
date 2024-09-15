@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.image img {
+    max-width: 100%;
+    min-width: 35.3rem;
+}
+
+.AboutSofa {
+    max-width: 59.8rem;
+    min-width: 35.1rem;
+}
+
+
+@media (max-width: 720px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center; 
+    }}

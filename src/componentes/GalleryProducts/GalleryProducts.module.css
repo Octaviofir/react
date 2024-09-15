@@ -1,0 +1,10 @@
+.flex_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card {
+   width: 100px;
+}

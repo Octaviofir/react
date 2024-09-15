@@ -1,0 +1,17 @@
+
+.about_specs {
+  width: 47.5rem;
+}
+
+.about_spec_title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+  }
+
+  .about_spec_description {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }

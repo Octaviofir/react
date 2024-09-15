@@ -1,0 +1,147 @@
+.wrapper {
+    display: flex;
+    gap: 2rem;
+
+}
+.sofa_wrapper {
+    min-width: 36.6rem;
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+.sofa_wrapper img {
+    min-width: 36.6rem;
+    max-width: 84rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+
+.sofa_squares {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.8rem;
+
+}
+
+.square {
+    width: 10rem;
+    height: 6rem;
+    background: #E8E8E8;
+
+}
+
+.head_title {
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin: 2.95rem 0 0 0;
+}
+
+.head_price {
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.details_wrapper {
+    width: 35.1rem;
+    height: 52.3rem;
+    min-width: 35.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    padding: 2.95rem 0 2.95rem 0;
+}
+
+.details_colors {
+    display:  flex;
+    flex-direction: column;
+    gap: 1.13rem;
+
+}
+
+.details_color span {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.1rem;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.details_image {
+    width: 1.1rem;
+    height: 2rem;
+    border: 0.2rem solid #E8E8E8;
+    border-radius: 4rem 4rem 0 0;
+    margin-top: 0.9rem;
+}
+
+
+.details_square {
+    height: 2rem;
+    
+}
+
+.options {
+    gap: 5.6rem;
+}
+
+.upgrate_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.upgrate_item {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+
+}
+
+.upgrate_square {
+    width: 20px;
+    height: 20px;
+    border-radius: 0.5rem;
+    border: 0.5px solid #9C9C9C;
+}
+
+
+
+    .bnt_section {
+      position: absolute;
+      bottom: 0;
+      right: 0;  
+    }
+    
+
+    @media (max-width: 720px) {
+        .wrapper {
+            flex-direction: column;
+            align-items: center; 
+        }
+
+        .sofa_wrapper {
+            min-width: 36.6rem;
+            width: 35.6rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        
+        }
+
+    }
